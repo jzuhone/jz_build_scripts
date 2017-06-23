@@ -1,0 +1,25 @@
+package:
+  name: soxs
+  version: 1.2.0
+
+source:
+  fn: soxs-1.2.0.tar.gz
+  url: https://pypi.python.org/packages/74/b8/e0670b7cb310992c5ad8d80d37e71252799025fc818749e9ac690c80c0a8/soxs-1.2.0.tar.gz
+  md5: 0df3999cdfbbaebfa7e6c690bad23aa2
+
+requirements:
+  build:
+    - python
+    - numpy
+    - cython
+    - setuptools
+  run:
+    - python
+    - numpy
+    - astropy
+    - pyyaml
+    - h5py
+
+about:
+  home: 
+  license: BSD

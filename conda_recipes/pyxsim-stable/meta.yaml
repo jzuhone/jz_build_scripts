@@ -1,0 +1,25 @@
+package:
+  name: pyxsim
+  version: 1.2.6
+
+source:
+  fn: pyxsim-1.2.6.tar.gz
+  url: https://pypi.python.org/packages/ca/ca/b6a2a0f3e53465f14f18bd9fa5420fa7c7d0bd352d47cec9e509279a62a6/pyxsim-1.2.6.tar.gz#md5=d759920e6008f6dbcd85d0a0a69f7a2d
+  md5: d759920e6008f6dbcd85d0a0a69f7a2d
+
+requirements:
+  build:
+    - python
+    - numpy
+    - cython
+    - setuptools
+  run:
+    - python
+    - numpy
+    - h5py
+    - astropy
+    - yt
+
+about:
+  home: http://hea-www.cfa.harvard.edu/~jzuhone/pyxsim
+  license: BSD

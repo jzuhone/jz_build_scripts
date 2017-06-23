@@ -1,0 +1,24 @@
+package:
+  name: pyxsim
+  version: 1.3_dev
+
+source:
+  git_url: http://github.com/jzuhone/pyxsim
+  git_rev: master  
+
+requirements:
+  build:
+    - python
+    - numpy
+    - cython
+    - setuptools
+  run:
+    - python
+    - numpy
+    - h5py
+    - astropy
+    - yt
+
+about:
+  home: http://hea-www.cfa.harvard.edu/~jzuhone/pyxsim
+  license: BSD
