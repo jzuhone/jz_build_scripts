@@ -1,11 +1,11 @@
 package:
   name: soxs
-  version: 1.3.0
+  version: 2.0.0
 
 source:
-  fn: soxs-1.3.0.tar.gz
-  url: https://pypi.python.org/packages/b2/3e/2a8e7910eb168f223d55e389538b0a6958c86a60d4fb05948756d242db4f/soxs-1.3.0.post1.tar.gz#md5=cd464d82d550254877560446114ed747
-  md5: cd464d82d550254877560446114ed747
+  fn: soxs-2.0.0.tar.gz
+  url: https://pypi.python.org/packages/e0/1f/7eea1a5de09be1b15c4c0528931aa9231eb67cde023358161a457bbb3a72/soxs-2.0.0.tar.gz#md5=36ca3a473735bfa3ea1b3701bfb18f8b
+  md5: 36ca3a473735bfa3ea1b3701bfb18f8b
 
 requirements:
   build:
