@@ -1,11 +1,11 @@
 package:
   name: pyxsim
-  version: 2.1.0
+  version: 2.1.1
 
 source:
-  fn: pyxsim-2.1.0.tar.gz
-  url: https://pypi.python.org/packages/0f/db/24d754213032532e94b589bc965525d971f8f59159ac259ead0848a3b431/pyxsim-2.1.0.tar.gz#md5=2de738cc612734aeadaf72ff3732d29c
-  md5: 2de738cc612734aeadaf72ff3732d29c
+  fn: pyxsim-2.1.1.tar.gz
+  url: https://files.pythonhosted.org/packages/45/b2/4608cf094ffe732b7e8f1aba84d8caa6b1329b0a7ce5990cdf664999e247/pyxsim-2.1.1.tar.gz
+  md5: 6439770c06b7c698d7926f257eacdf10
 
 requirements:
   build:
