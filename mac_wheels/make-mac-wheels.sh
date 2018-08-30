@@ -21,6 +21,10 @@ macpython36
 python3 setup.py bdist_wheel
 rm -rf build
 
+macpython37
+python3 setup.py bdist_wheel
+rm -rf build
+
 python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp27-none-macosx_10_6_intel.whl
 python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp35-cp35m-macosx_10_6_intel.whl
 python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp36-cp36m-macosx_10_6_intel.whl
