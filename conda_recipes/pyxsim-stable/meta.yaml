@@ -5,7 +5,7 @@ package:
 source:
   fn: pyxsim-2.2.0.post1.tar.gz
   url: https://files.pythonhosted.org/packages/5a/68/e2bfc87671cbc7b1ed65a42b84b814f74ddd29d88d004930522cfb398999/pyxsim-2.2.0.post1.tar.gz
-  sha256: 27044fe1a2e5226eb354e86c89af4834e48b176490d8db2f9b5f76a01f0cde59
+  sha256: e16b7c03db30868487a25251a6378b701b8800a904d768e8bc5e9a9b4a01e1fa
 
 requirements:
   build:
