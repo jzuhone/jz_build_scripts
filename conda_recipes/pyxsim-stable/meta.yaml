@@ -3,9 +3,9 @@ package:
   version: 2.2.0
 
 source:
-  fn: pyxsim-2.2.0.post1.tar.gz
-  url: https://files.pythonhosted.org/packages/5a/68/e2bfc87671cbc7b1ed65a42b84b814f74ddd29d88d004930522cfb398999/pyxsim-2.2.0.post1.tar.gz
-  sha256: e16b7c03db30868487a25251a6378b701b8800a904d768e8bc5e9a9b4a01e1fa
+  fn: pyxsim-2.2.0.post2.tar.gz
+  url: https://files.pythonhosted.org/packages/47/8f/edf4b70945818737510e224478471a61ad7470e264146f7a9221f4fa85f6/pyxsim-2.2.0.post2.tar.gz
+  sha256: 5c1099e9be50bf89fe1804a193ae5ab54c76ed9d405ee457cc6f7b76ece8c7f2
 
 requirements:
   build:
