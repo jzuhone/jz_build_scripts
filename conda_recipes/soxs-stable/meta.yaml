@@ -3,9 +3,9 @@ package:
   version: 2.2.0
 
 source:
-  fn: soxs-2.2.0.tar.gz
-  url: https://files.pythonhosted.org/packages/f6/91/edfdecacb81f5e4b9e3c060c4b2739ef83d867584f426fcf6e266fab1785/soxs-2.2.0.tar.gz
-  sha256: a3591e3ff6a6dccdc840b53ecf07cdf05b6af77bf46630a92299050120602e28
+  fn: soxs-2.2.0.post1.tar.gz
+  url: https://files.pythonhosted.org/packages/46/d8/e87c4056b83afef60a4f11d6c0a0676b396a478d92d69bcf15d125abfd65/soxs-2.2.0.post1.tar.gz
+  sha256: 3f88b51396fbf077c8e6a3bbc51d8f21fb2312b72c698aa21c154ddc15a3e287
 
 requirements:
   build:
