@@ -1,11 +1,11 @@
 package:
   name: soxs
-  version: 2.3.0
+  version: 3.0.0
 
 source:
-  fn: soxs-2.3.0.tar.gz
-  url: https://files.pythonhosted.org/packages/09/80/9feb30786304d810c6402b25fda105499cb75fc9a58e2a3b7d4247f44943/soxs-2.3.0.tar.gz
-  sha256: 49a03c62aba8653d7c52c2c9b10ea05e83e1fbe6d6cc535c860475ad2f8eaab7
+  fn: soxs-3.0.0.tar.gz
+  url: https://files.pythonhosted.org/packages/03/40/fc5dd2de091a690dd08a37ea0328c149040b4c5c27b6d2bcc83a993b8dac/soxs-3.0.0.tar.gz
+  sha256: d3dd9c41324ed1abce42ed43af0c26ed4eb36f885a23eaa94f0e642958a6ecd5
 
 requirements:
   build:
@@ -20,8 +20,11 @@ requirements:
     - pyyaml
     - h5py
     - tqdm
-    - pyregion
-
+    - regions
+    - appdirs
+    - scipy
+    - pooch
+    
 about:
   home: 
   license: BSD
