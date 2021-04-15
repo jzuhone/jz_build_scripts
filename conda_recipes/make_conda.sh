@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 ACCOUNT="jzuhone"
-SOFT="soxs"
-VERSION="3.0.0"
+SOFT="pyxsim"
+VERSION="2.3.1"
 
 export MACOSX_DEPLOYMENT_TARGET="10.9"
 

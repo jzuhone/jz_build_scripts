@@ -1,11 +1,11 @@
 package:
   name: pyxsim
-  version: 2.3.0
+  version: 2.3.1
 
 source:
-  fn: pyxsim-2.3.0.tar.gz
-  url: https://files.pythonhosted.org/packages/a1/3d/7aa64f0b4f78a24eaeac584287686c60a8efd1e49347201a48a5b1cd7c87/pyxsim-2.3.0.tar.gz
-  sha256: c296de857155e3cb3b7a73b586f3129ab8a8d8460ad01d442b7befba6eea2fe1
+  fn: pyxsim-2.3.1.tar.gz
+  url: https://files.pythonhosted.org/packages/68/97/a9a5b0fd942b338be0e70ad168c37135def0a04950649cc7bbf045112bc1/pyxsim-2.3.1.tar.gz
+  sha256: 8b4b6079f2d7f16d8805e81aaeac255571d9e36c4941d2fb8736d38ccddef0b2
 
 requirements:
   build:

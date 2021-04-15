@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-ACCOUNT="lynx-x-ray-observatory"
-SOFT="soxs"
-VERSION="3.0.0"
+ACCOUNT="jzuhone"
+SOFT="pyxsim"
+VERSION="2.3.1"
 
 PYTHON_ROOT="/Library/Frameworks/Python.framework/Versions/"
 
