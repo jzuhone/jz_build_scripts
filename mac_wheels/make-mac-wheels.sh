@@ -1,8 +1,8 @@
 #!/bin/zsh
 
-ACCOUNT="jzuhone"
-SOFT="pyxsim"
-VERSION="2.3.1"
+ACCOUNT="lynx-x-ray-observatory"
+SOFT="soxs"
+VERSION="3.0.1"
 
 PYTHON_ROOT="/Library/Frameworks/Python.framework/Versions/"
 
@@ -25,12 +25,8 @@ rm -rf build
 
 python setup.py sdist
 
-#python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp36-cp36m-macosx_10_6_intel.whl
-#python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp37-cp37m-macosx_10_6_inte#l.whl
-#python ../rename_wheels.py dist/${SOFT}-${VERSION}-cp38-cp38m-macosx_10_6_intel.whl
+cd ..
 
-#cd ..
+mv $SOFT-$VERSION/dist/* .
 
-#mv $SOFT-$VERSION/dist/* .
-
-#rm -rf $SOFT-$VERSION
+rm -rf $SOFT-$VERSION

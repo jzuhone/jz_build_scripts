@@ -1,11 +1,11 @@
 package:
   name: soxs
-  version: 3.0.0
+  version: 3.0.1
 
 source:
-  fn: soxs-3.0.0.tar.gz
-  url: https://files.pythonhosted.org/packages/03/40/fc5dd2de091a690dd08a37ea0328c149040b4c5c27b6d2bcc83a993b8dac/soxs-3.0.0.tar.gz
-  sha256: d3dd9c41324ed1abce42ed43af0c26ed4eb36f885a23eaa94f0e642958a6ecd5
+  fn: soxs-3.0.1.post1.tar.gz
+  url: https://files.pythonhosted.org/packages/53/44/5d5a43b6e0097ab1412d961decf41cb9e6a678cb7a6ca827c5b7ad9e2e4e/soxs-3.0.1.post1.tar.gz
+  sha256: 11940343689f94b82c40926a3730da441d51b66ae719ccb7fae3d9e8cdbae9fa
 
 requirements:
   build:
