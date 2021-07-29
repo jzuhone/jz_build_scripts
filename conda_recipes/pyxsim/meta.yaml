@@ -1,11 +1,11 @@
 package:
   name: pyxsim
-  version: 2.3.1
+  version: 3.0.0
 
 source:
-  fn: pyxsim-2.3.1.tar.gz
-  url: https://files.pythonhosted.org/packages/68/97/a9a5b0fd942b338be0e70ad168c37135def0a04950649cc7bbf045112bc1/pyxsim-2.3.1.tar.gz
-  sha256: 8b4b6079f2d7f16d8805e81aaeac255571d9e36c4941d2fb8736d38ccddef0b2
+  fn: pyxsim-3.0.0.tar.gz
+  url: https://files.pythonhosted.org/packages/c8/05/e5a700944ab240b1a0073fc4d7f81420e4d76bf03eb6796fe9c69b2a40a8/pyxsim-3.0.0.tar.gz
+  sha256: d45d97f31b4522f58162169e76011f58cb028581c56033b67325202c1293874a
 
 requirements:
   build:
@@ -20,7 +20,9 @@ requirements:
     - astropy
     - yt
     - soxs
-
+    - scipy
+    - tqdm
+    
 about:
   home: http://hea-www.cfa.harvard.edu/~jzuhone/pyxsim
   license: BSD
