@@ -1,18 +1,20 @@
+
 package:
   name: soxs
-  version: 3.4.0
+  version: 4.0b0
 
 source:
-  fn: soxs-3.4.0.tar.gz
-  url: https://files.pythonhosted.org/packages/81/e9/6ca81d79f967729eca3f93e959e6c72abc6bff5ede7cd37c81e68d90740f/soxs-3.4.0.tar.gz
-  sha256: fbea16ea40a2238503988892d06568cddf145aeee86942a05f3a3b6f6970d89b	
+  fn: soxs-4.0b0.tar.gz
+  url: https://files.pythonhosted.org/packages/35/01/b40aa523fd9f6eecd36a80a0ddda3f8e8a18443922908fa938ae43647c7a/soxs-4.0b0.tar.gz
+  sha256: 4c9cb1a757e56d8fa029b2bdf065968854ab184d3d9b9ca589ed2569c13e76e2
 
 requirements:
   build:
     - python
     - numpy
     - cython
-    - setuptools
+    - setuptools>=45
+    - setuptools_scm[toml]>=6.2
   run:
     - python
     - numpy
