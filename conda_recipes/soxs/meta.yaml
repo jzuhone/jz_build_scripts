@@ -1,12 +1,12 @@
 
 package:
   name: soxs
-  version: 4.0b0
+  version: 4.0.0
 
 source:
-  fn: soxs-4.0b0.tar.gz
-  url: https://files.pythonhosted.org/packages/35/01/b40aa523fd9f6eecd36a80a0ddda3f8e8a18443922908fa938ae43647c7a/soxs-4.0b0.tar.gz
-  sha256: 4c9cb1a757e56d8fa029b2bdf065968854ab184d3d9b9ca589ed2569c13e76e2
+  fn: soxs-4.0.0.tar.gz
+  url: https://files.pythonhosted.org/packages/ff/1d/88fba51e41b7d2cf5f718c21459f952982b3461120d06bdb6e6b205015fb/soxs-4.0.0.tar.gz
+  sha256: 5e585ed8ba4d90572660da8db48dd836dc4def415b30f31efd9e6ebb7c00d43e
 
 requirements:
   build:

@@ -1,11 +1,11 @@
 package:
   name: pyxsim
-  version: 3.0.1
+  version: 4.0.0
 
 source:
-  fn: pyxsim-3.0.1.tar.gz
-  url: https://files.pythonhosted.org/packages/bc/31/2b84152172eb12fdd238ad42feca41f86b862ab9b041d098865fd4c64cb8/pyxsim-3.0.1.tar.gz
-  sha256: c5ddd6f72878c13207cf44e15bd6dbbb62b73ad06e99c86b094020e762334512
+  fn: pyxsim-4.0.0.tar.gz
+  url: https://files.pythonhosted.org/packages/85/81/8191109e81010b07fb742dbc93626d4d9e79ed9b0a398a486d94b9948262/pyxsim-4.0.0.tar.gz
+  sha256: c4ec2941a2c56d87058eddbd479d9b176bddffbd1595d9c2c7b98c5e9d7389dd
 
 requirements:
   build:
@@ -18,8 +18,8 @@ requirements:
     - numpy
     - h5py
     - astropy
-    - yt
-    - soxs
+    - yt>=4.1
+    - soxs>=4.0.0
     - scipy
     - tqdm
     
