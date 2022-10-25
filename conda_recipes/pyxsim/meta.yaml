@@ -5,7 +5,7 @@ package:
 source:
   fn: pyxsim-4.0.0.tar.gz
   url: https://files.pythonhosted.org/packages/85/81/8191109e81010b07fb742dbc93626d4d9e79ed9b0a398a486d94b9948262/pyxsim-4.0.0.tar.gz
-  sha256: c4ec2941a2c56d87058eddbd479d9b176bddffbd1595d9c2c7b98c5e9d7389dd
+  sha256: c183a76b83dec410a47bf973dae48b91a0387337aecb69c9d606e2a23846529e
 
 requirements:
   build:
